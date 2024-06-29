@@ -1,0 +1,46 @@
+const {{noun}}: {{type}} = {{noun}}.{{verb}}({{noun}});
+const {{noun}}: {{type}} = await {{noun}}.{{verb}}({{noun}});
+const {{noun}}: {{type}} = {{noun}}.{{verb}}({{noun}}, {{noun}});
+const {{noun}}: {{type}} = { {{noun}}: '{{string}}'};
+const {{noun}}: {{type}} = { {{noun}}: "{{string}}"};
+const {{noun}}: Array<{{type}}> = [];
+const {{noun}} = new {{type}}();
+const {{noun}} = "{{string}}";
+const {{noun}} = '{{string}}';
+if ({{noun}} {{condition}} {{noun}} && {{noun}} {{condition}} {{noun}}) {}
+if ({{noun}} {{condition}} {{number}} && {{noun}} {{condition}} {{number}}) {}
+if ({{noun}} {{condition}} "{{string}}") {}
+if ({{noun}} {{condition}} '{{string}}') {}
+else {}
+return {{noun}}.{{verb}}();
+return {{noun}}?.{{verb}}();
+return {{noun}}.{{verb}}({{noun}}, {{noun}});
+return {{noun}}?.{{verb}}({{noun}}, {{noun}});
+{{verb}}<{{type}}>({{noun}});
+{{verb}}<{{type}}>({{string}});
+{{verb}}<{{type}}>({ {{noun}}: {{number}}, {{noun}}: '{{string}}'});
+{{verb}}<{{type}}>({ {{noun}}: {{verb}}(), {{noun}}: "{{string}}"});
+function {{verb}}(): {{type}} {}
+function async {{verb}}(): {{type}} {}
+function {{verb}}({{noun}}: {{type}}, {{noun}}: {{type}}): {{type}} {}
+function {{verb}}({{noun}}: {{type}} = {{number}}): {{type}} {}
+function {{verb}}<T>({{noun}}: T): T {}
+const {{verb}} = function() {}
+const {{verb}} = function({{noun}}) {}
+const {{verb}} = () => {};
+const {{verb}} = async () => {};
+const {{verb}} = () => {{verb}}();
+const {{verb}} = async () => await {{verb}}();
+const {{verb}} = () => {{verb}}({{noun}});
+const {{verb}} = () => {{noun}}.{{verb}}({{noun}});
+const {{verb}} = ({{noun}}) => {{noun}}.{{verb}}();
+class {{type}} {}
+interface {{type}} {}
+class {{type}} extends {{type}} {}
+{{noun}}: {{type}};
+{{noun}}?: {{type}};
+{{noun}}[];
+{{noun}}[{{number}}];
+[{{noun}}: {{type}}]: {{type}};
+console.log(`{{string}} ${{{noun}}.{{noun}}} {{string}}`);
+{{verb}}`{{string}} ${{{noun}}.{{noun}}} {{string}}`;

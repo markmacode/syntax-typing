@@ -7,6 +7,10 @@ gain muscle memory for typing various patterns while coding.
 
 ## Usage
 
+Because of the limitations on MonkeyType, the pipe `|` character will not be
+present in any of the data sets, this character is used to separate each block
+of data that goes into MonkeyType.
+
 I'll get back to this
 
 ## Why?
